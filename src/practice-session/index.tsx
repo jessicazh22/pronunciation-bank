@@ -499,7 +499,6 @@ const PracticeSession: React.FC<PracticeSessionProps> = ({ words, onComplete, on
               >
                 <X className="w-7 h-7" />
                 <span>Incorrect</span>
-                <span className="text-white/60 text-base font-normal ml-1">(2)</span>
               </button>
 
               <button
@@ -508,7 +507,6 @@ const PracticeSession: React.FC<PracticeSessionProps> = ({ words, onComplete, on
                 className="py-5 px-8 bg-theme-accent text-theme-muted rounded-2xl hover:opacity-80 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2 shadow-lg hover:shadow-xl transition-all font-bold text-lg"
               >
                 <SkipForward className="w-6 h-6" />
-                <span className="text-theme-muted/60 text-base font-normal">(3)</span>
               </button>
 
               <button
@@ -518,7 +516,6 @@ const PracticeSession: React.FC<PracticeSessionProps> = ({ words, onComplete, on
               >
                 <Check className="w-7 h-7" />
                 <span>Correct</span>
-                <span className="text-white/60 text-base font-normal ml-1">(1)</span>
               </button>
             </div>
           </div>
